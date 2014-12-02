@@ -1,3 +1,4 @@
+
 header {
     background-color:#9ecffd;
     border-radius: 10px;
@@ -32,13 +33,6 @@ header li {
     margin: 2px;
 }
 
-
-nav li {
-    display: inline-block;
-    width:33%;
-    text-align: center;
-}
-
 main {
     background-color:#dedee1;
     border-radius: 10px;
@@ -46,6 +40,43 @@ main {
     padding-bottom: 10px;
 }
 
+main h1 {
+    margin-top:50px;
+    text-align:center;
+    font-family:Pacifico;
+    font-size: 40px;
+}
+
+.mainparcours h2 {
+    list-style: none;
+    font-family:sans-serif;
+    font-size: 20px;
+    border-color: #9ecffd;
+    border-style:double;
+    border-radius: 5px;
+}
+
+.mainparcours div {
+    width: 500px;
+    text-align: center;
+    margin:auto;
+}
+
+.mainparcours h3 {
+    font-family:sans-serif;
+    font-size: 15px;   
+    color:#69b5fd;
+}
+
+
+a {
+    text-decoration: none;
+    color: #9ecffd;
+}
+
+a:hover{
+    color:black;
+}
 
 .photo {
     text-align: center;
