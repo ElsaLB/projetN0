@@ -22,7 +22,7 @@ header li {
 }
 
 .headerbis {
-   position:fixed;
+    position:fixed;
     display:block;
     height:60px;
 }
@@ -31,6 +31,12 @@ header li {
     background-color:#9ecffd;
     border-radius: 5px;
     margin: 2px;
+}
+
+.left:hover {
+    border-color: black;
+    border-style:groove;
+    border-radius: 5px;
 }
 
 main {
@@ -45,6 +51,16 @@ main h1 {
     text-align:center;
     font-family:Pacifico;
     font-size: 40px;
+}
+
+main p  {
+    font-family:cursive;
+    font-size: 15px;
+}
+
+.ontheroad {
+    text-align: center;
+    font-weight: bold;
 }
 
 .mainparcours h2 {
@@ -62,12 +78,33 @@ main h1 {
     margin:auto;
 }
 
+.mainparcours h4 {
+    list-style: none;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
 .mainparcours h3 {
     font-family:sans-serif;
     font-size: 15px;   
     color:#69b5fd;
 }
 
+table {
+    margin: auto;
+    width: 90%;
+}
+
+.xp li {
+    list-style:disc;
+    text-align: left
+}
+
+.xp p {
+    font-size: 13px;
+}
 
 a {
     text-decoration: none;
@@ -82,6 +119,10 @@ a:hover{
     text-align: center;
 }
 
+.maincontact {
+    text-align: center;
+}
+
 footer ul {
     list-style: none;
 }
@@ -89,11 +130,6 @@ footer ul {
 h2 {
     list-style: none;
     font-family:sans-serif;
-    font-size: 15px;
-}
-
-main p  {
-    font-family:cursive;
     font-size: 15px;
 }
 
