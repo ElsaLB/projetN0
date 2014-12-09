@@ -21,10 +21,20 @@ header li {
     display: inline-block;
 }
 
+header img {
+    width:25px;
+    height:25px;
+}
+
 .headerbis {
     position:fixed;
     display:block;
     height:60px;
+}
+
+.headerbis img {
+    width:50px;
+    height:50px;
 }
 
 .left {
@@ -67,34 +77,34 @@ main p  {
     list-style: none;
     font-family:sans-serif;
     font-size: 20px;
+    text-align: center;
     border-color: #9ecffd;
     border-style:double;
     border-radius: 5px;
 }
 
-.mainparcours div {
+.titresparcours {
+    width: 
+}
+
+h2 {
+    list-style: none;
+    font-family:sans-serif;
+    font-size: 15px;
+}
+
+/*.mainparcours div {
     width: 500px;
     text-align: center;
     margin:auto;
-}
+}*/
 
-.mainparcours h4 {
-    list-style: none;
-    text-align: center;
-    font-family:sans-serif;
-    font-size: 20px;
-    margin-top: 10px;
-}
 
 .mainparcours h3 {
     font-family:sans-serif;
     font-size: 15px;   
     color:#69b5fd;
-}
-
-table {
-    margin: auto;
-    width: 90%;
+    padding-top:10px;
 }
 
 .xp li {
@@ -102,8 +112,8 @@ table {
     text-align: left
 }
 
-.xp p {
-    font-size: 13px;
+.colonnes-left xp p {
+    font-size: 15px;
 }
 
 a {
@@ -111,7 +121,7 @@ a {
     color: #9ecffd;
 }
 
-a:hover{
+a:hover {
     color:black;
 }
 
@@ -125,12 +135,6 @@ a:hover{
 
 footer ul {
     list-style: none;
-}
-
-h2 {
-    list-style: none;
-    font-family:sans-serif;
-    font-size: 15px;
 }
 
 main ul {
@@ -147,4 +151,89 @@ footer {
     background-color:#9ecffd;
     border-radius: 10px;
     text-align: center;
+}
+
+footer img {
+    with:50px;
+    height:50px;
+}
+
+.competences{
+    border-color:#9ecffd;
+    border-style:double;
+    border-radius:5px;
+
+}
+
+.colonnes .colonnes-left{
+    display:inline-block;
+    width:60%;
+    padding-left:40px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+
+.colonnes .colonnes-right{
+    display:inline-block;
+    width:20%;
+    vertical-align: top;
+    margin-top: 58px;
+    margin-left:80px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.colonnes-right li {
+    text-decoration: none;
+}
+
+.colonnes-right p {
+    font-size: 13px;
+}
+
+.maincontact ul{
+    padding:0;
+}
+
+.maincontact img {
+    width:30px;
+    height: 30px;
+}
+
+.email img {
+    width:25px;
+    height:25px;
+}
+
+.portable img {
+    width:20px;
+    height:20px;
+}
+
+.photo img {
+    width:300px;
+    height:200px;
+    margin-top:15px;
+}
+
+.titresparcours h2 {
+    display:inline-block;
+    padding: 5px 35px 5px 35px;
+}
+
+.titresparcours {
+    text-align: center;
+}
+
+.mainparcours h4 {
+    list-style: none;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: -40px;
+}
+
+.xp-pro {
+    margin-top: 50px;
 }
