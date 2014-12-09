@@ -71,6 +71,7 @@ main p  {
 .ontheroad {
     text-align: center;
     font-weight: bold;
+    margin-left: -40px;
 }
 
 .mainparcours h2 {
@@ -84,7 +85,7 @@ main p  {
 }
 
 .titresparcours {
-    width: 
+    margin-bottom: -10px;
 }
 
 h2 {
@@ -214,6 +215,7 @@ footer img {
     width:300px;
     height:200px;
     margin-top:15px;
+    border-radius: 5px;
 }
 
 .titresparcours h2 {
